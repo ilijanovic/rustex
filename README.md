@@ -3,7 +3,7 @@
 Example with closure
 
 
-``
+
     mod rustex;
     use rustex::Response;
 
@@ -22,13 +22,13 @@ Example with closure
 
         app.run_server();
     }
-``
+
 
 
 Example with named function:
 
 
-``
+
     mod rustex;
     use rustex::Response;
 
@@ -49,4 +49,3 @@ Example with named function:
             data: text,
         }
     }
-``
