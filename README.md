@@ -2,8 +2,8 @@
 
 Example with closure
 
-``
-mod rustex;
+
+``mod rustex;
 use rustex::Response;
 
 fn main() {
@@ -20,17 +20,13 @@ fn main() {
     });
 
     app.run_server();
-}
-
-
-``
+}``
 
 
 Example with named function:
 
 
-``
-mod rustex;
+``mod rustex;
 use rustex::Response;
 
 fn main() {
@@ -49,7 +45,4 @@ fn test_function() -> Response {
         status: 200,
         data: text,
     }
-}
-
-
-``
+}``
